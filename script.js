@@ -118,7 +118,7 @@ const pictureQuestions = {
 
     19: {
         q: "इस कार्टून कैरेक्टर का नाम क्या है? What is the name of this cartoon character?",
-        img: "./image/im-199.jpeg",
+        img: "./image/im-19.png",
         a: "जैक (ओगी एंड द कॉकरोच) – Jack"
     },
 
