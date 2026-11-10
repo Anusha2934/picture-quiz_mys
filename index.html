@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>चित्रमाला प्रश्नोत्तरी</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="stage">
+
+    <!-- HOME SCREEN (PAGE 1) -->
+
+    <section id="screen-home" class="screen active">
+
+        <img class="gov-logo" src="logo.png"
+             alt="Income Tax Department emblem">
+
+        <div class="corner-signature">
+            त्रिगुणसेन पंडित, वरिष्ठ अनुवाद अधिकारी
+        </div>
+
+        <h1 class="pixel-title">
+            <span class="title-hi-line">
+                चित्रमाला प्रश्नोत्तरी
+            </span>
+            HINDI QUIZ
+        </h1>
+
+        <button class="pixel-btn" id="btn-start">
+            शुरू
+        </button>
+
+        <div class="sunflower">
+            <div class="stem"></div>
+            <div class="leaf l1"></div>
+            <div class="leaf l2"></div>
+            <div class="bloom"></div>
+        </div>
+
+        <div class="mountains"></div>
+
+        <!-- Footer retained on home page -->
+        <div class="ground"></div>
+
+    </section>
+
+
+    <!-- LEVEL SELECT SCREEN (PAGE 2) -->
+
+    <section id="screen-levels" class="screen">
+
+        <img class="gov-logo" src="logo.png"
+             alt="Income Tax Department emblem">
+
+        <div class="back-btn"
+             id="btn-back-to-home"
+             role="button"
+             tabindex="0"
+             aria-label="Back to home">
+
+            <svg viewBox="0 0 24 24">
+                <path d="M15 4 5 12l10 8"
+                      fill="none"
+                      stroke="#fff"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"/>
+            </svg>
+
+        </div>
+
+        <div class="corner-signature">
+            त्रिगुणसेन पंडित, वरिष्ठ अनुवाद अधिकारी
+        </div>
+
+        <div class="panel">
+
+            <div class="panel-header">
+                SELECT A LEVEL
+            </div>
+
+            <div class="level-grid" id="level-grid"></div>
+
+        </div>
+
+        <!-- Footer retained on level page -->
+        <div class="ground"></div>
+
+    </section>
+
+
+    <!-- QUESTION PREVIEW SCREEN (PAGE 3) -->
+
+    <section id="screen-question-preview" class="screen">
+
+        <img class="watermark-logo"
+             src="logo.png"
+             alt="">
+
+        <!-- BACK BUTTON -->
+
+        <div class="back-btn"
+             id="btn-back-to-levels-3"
+             role="button"
+             tabindex="0"
+             aria-label="Back to levels">
+
+            <svg viewBox="0 0 24 24">
+                <path d="M15 4 5 12l10 8"
+                      fill="none"
+                      stroke="#fff"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"/>
+            </svg>
+
+        </div>
+
+
+        <!-- HOME / LEVEL BUTTON -->
+
+        <div class="home-btn"
+             id="btn-home-from-question"
+             role="button"
+             tabindex="0"
+             aria-label="Go to levels">
+
+            <svg viewBox="0 0 24 24">
+                <path d="M3 11.5 12 4l9 7.5"
+                      fill="none"
+                      stroke="#fff"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"/>
+
+                <path d="M5.5 10.5V20h13v-9.5"
+                      fill="none"
+                      stroke="#fff"
+                      stroke-width="2.5"
+                      stroke-linejoin="round"/>
+            </svg>
+
+        </div>
+
+
+        <div class="corner-signature">
+            त्रिगुणसेन पंडित, वरिष्ठ अनुवाद अधिकारी
+        </div>
+
+
+        <div class="q-container">
+
+            <h2 class="q-title" id="preview-q-text"></h2>
+
+            <div class="q-image-box">
+                <img id="preview-q-image"
+                     src=""
+                     alt="Question Image">
+            </div>
+
+            <button class="btn-uttar" id="btn-show-answer">
+                उत्तर
+            </button>
+
+        </div>
+
+        <!-- IMPORTANT: No ground/footer on question page -->
+
+    </section>
+
+
+    <!-- ANSWER SCREEN (PAGE 4) -->
+
+    <section id="screen-answer-page" class="screen">
+
+        <img class="watermark-logo"
+             src="logo.png"
+             alt="">
+
+        <!-- BACK BUTTON -->
+
+        <div class="back-btn"
+             id="btn-back-to-preview-4"
+             role="button"
+             tabindex="0"
+             aria-label="Back to question preview">
+
+            <svg viewBox="0 0 24 24">
+                <path d="M15 4 5 12l10 8"
+                      fill="none"
+                      stroke="#fff"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"/>
+            </svg>
+
+        </div>
+
+
+        <!-- HOME / LEVEL BUTTON -->
+
+        <div class="home-btn"
+             id="btn-home-from-answer"
+             role="button"
+             tabindex="0"
+             aria-label="Go to levels">
+
+            <svg viewBox="0 0 24 24">
+                <path d="M3 11.5 12 4l9 7.5"
+                      fill="none"
+                      stroke="#fff"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"/>
+
+                <path d="M5.5 10.5V20h13v-9.5"
+                      fill="none"
+                      stroke="#fff"
+                      stroke-width="2.5"
+                      stroke-linejoin="round"/>
+            </svg>
+
+        </div>
+
+
+        <div class="corner-signature">
+            त्रिगुणसेन पंडित, वरिष्ठ अनुवाद अधिकारी
+        </div>
+
+
+        <div class="q-container">
+
+            <h2 class="q-title" id="answer-q-text"></h2>
+
+            <div class="q-image-box">
+                <img id="answer-q-image"
+                     src=""
+                     alt="Question Image">
+            </div>
+
+            <div class="answer-card" id="answer-card-text"></div>
+
+        </div>
+
+        <!-- IMPORTANT: No ground/footer on answer page -->
+
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
